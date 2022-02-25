@@ -3,7 +3,7 @@ projectData = {};
 const port= 3000;
 // Require Express to run server and routes
 const express =require("express");
-const bodyParser =require("bodyParser");
+const bodyParser = require("body-parser");
 const cors =require("cors");
 
 // Start up an instance of app
